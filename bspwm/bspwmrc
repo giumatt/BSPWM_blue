@@ -10,8 +10,6 @@ pgrep -f bitwarden > /dev/null || bitwarden-desktop &
 pgrep -x opensnitch-ui > /dev/null || opensnitch-ui &
 #eval $(/usr/bin/gnome-keyring-daemon --start --components=gpg,pkcs11,secrets,ssh) export SSH_AUTH_SOCK
 
-# Ciao prova di pushing
-
 bspc monitor -d I II III IV V VI VII VIII IX X
 
 bspc config border_width         	1
