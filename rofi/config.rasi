@@ -1,0 +1,6 @@
+* {
+	gbfont: "SanFranciscoPro Display 10";
+	gbcolor: #E0E5EF12;
+	/*gbcolor: #abb2bfff;*/
+	gbbordercolor: #3E424Aff;
+}
