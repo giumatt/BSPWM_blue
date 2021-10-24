@@ -135,7 +135,7 @@ super + {Left,Down,Up,Right}
 
 #lockscreen option
 alt + x
-	exec $HOME/scripts/lock_internal.sh 
+	exec $HOME/.config/scripts/lock_internal.sh 
 
 # flameshot command
 alt + F12
@@ -147,4 +147,4 @@ super + shift + s
 
 # Rofi todo
 alt + shift + a
-	rofi -modi TODO:$HOME/scripts/rofi-todo.sh -show TODO -theme ~/.config/rofi/app_menu/style.rasi
+	rofi -modi TODO:$HOME/.config/scripts/rofi-todo.sh -show TODO -theme ~/.config/rofi/app_menu/style.rasi
