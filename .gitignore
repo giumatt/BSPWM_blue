@@ -3,8 +3,6 @@ Atom/
 
 autostart/
 
-betterlockscreen/
-
 Bitwarden/
 
 cef_user_data/
@@ -31,6 +29,12 @@ gtk-3.0/
 
 Microsoft/
 
+Microsoft Teams - Preview/
+
+noisetorch/
+
+procps/
+
 pulse/
 
 spicetify/
@@ -48,6 +52,8 @@ whatsdesk/
 xfce4/
 
 xournalpp/
+
+yay/
 
 mimeapps.list
 
