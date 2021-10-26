@@ -14,6 +14,7 @@
 ;
 ;   The README contains a lot of information
 ;
+;
 ;==========================================================
 
 [colors]
@@ -61,8 +62,8 @@ font-5 = "FontAwesome:size=11;2:antialias=false"
 font-6 = IPAGothic:size=11;2
 
 modules-left = launcher bspwm web file ide spotifymenu
-modules-center =  
-modules-right =  wlan backlight pulseaudio memory cpu battery date powermenu
+modules-center =
+modules-right =  wlan backlight pulseaudio memory cpu battery date powermenu arrow
 
 tray-position = right
 tray-padding = 1
@@ -139,7 +140,7 @@ label-focused-font = 2
 label-occupied = %index%
 label-occupied-padding = 4
 
-label-empty = 
+label-empty =
 
 label-urgent = %index%
 label-urgent-padding = 4
@@ -251,7 +252,7 @@ ramp-signal-0 = "󰤟"
 ramp-signal-1 = "󰤢"
 ramp-signal-2 = "󰤥"
 ramp-signal-3 = "󰤨"
-;ramp-signal-4 = 
+;ramp-signal-4 =
 ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
@@ -375,10 +376,10 @@ label-discharging = "%percentage%%"
 ; Available tokens:
 ;   %percentage% (default) - is set to 100 if full-at is reached
 ;   %percentage_raw%
-label-full = Fully charged 
+label-full = Fully charged
 
 ; Only applies if <ramp-capacity> is used
-ramp-capacity-0 = 󰁺 
+ramp-capacity-0 = 󰁺
 ramp-capacity-1 = 󰁻
 ramp-capacity-2 = 󰁾
 ramp-capacity-3 = 󰂀
@@ -504,14 +505,14 @@ margin-bottom = 5
 
 [module/backlight]
 type = internal/backlight
- 
+
 card = amdgpu_bl0
- 
+
 ; format = <ramp> <label>
 format-background = ${colors.background}
 format-foreground = ${colors.foreground}
 ;format-padding = 1
- 
+
 ; Enable changing the backlight with the scroll wheel (unreleased)
 ; NOTE: This may require additional configuration on some systems. Polybar will
 ; write to `/sys/class/backlight/${self.card}/brightness` which requires polybar
@@ -523,13 +524,13 @@ format-foreground = ${colors.foreground}
 ; https://wiki.archlinux.org/index.php/Backlight#ACPI
 ; Default: false
 enable-scroll = true
- 
+
 ; Available tags:
 ;   <label> (default)
 ;   <ramp>
 ;   <bar>
 format = <label>
- 
+
 ; Available tokens:
 ;   %percentage% (default)
 label = 󰖙 %percentage%%
@@ -540,7 +541,7 @@ ramp-1 = 🌔
 ramp-2 = 🌓
 ramp-3 = 🌒
 ramp-4 = 🌑
- 
+
 ; Only applies if <bar> is used
 bar-width = 10
 bar-indicator = |
@@ -548,5 +549,3 @@ bar-fill = ─
 bar-empty = ─
 
 ; vim:ft=dosini
-
-
