@@ -27,11 +27,15 @@ gtk-2.0/
 
 gtk-3.0/
 
+libreoffice/
+
 Microsoft/
 
 Microsoft Teams - Preview/
 
 noisetorch/
+
+ookla/
 
 procps/
 
@@ -58,6 +62,8 @@ yay/
 mimeapps.list
 
 pavucontrol.ini
+
+QtProject.conf
 
 user-dirs.dirs
 
