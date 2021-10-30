@@ -135,7 +135,7 @@ super + {Left,Down,Up,Right}
 
 #lockscreen option
 alt + x
-	exec $HOME/.config/scripts/lock_internal.sh 
+	exec $HOME/.config/scripts/lock_internal.sh
 
 # flameshot command
 alt + F12
@@ -148,3 +148,13 @@ super + shift + s
 # Rofi todo
 alt + shift + a
 	rofi -modi TODO:$HOME/.config/scripts/rofi-todo.sh -show TODO -theme ~/.config/rofi/app_menu/style.rasi
+
+# Volume settings
+XF86AudioRaiseVolume
+	pactl set-sink-volume @DEFAULT_SINK@ +10%
+
+XF86AudioLowerVolume
+	pactl set-sink-volume @DEFAULT_SINK@ -10%
+
+XF86AudioMute
+	pactl set-sink-mute @DEFAULT_SINK@ toggle
