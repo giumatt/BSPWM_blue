@@ -1,4 +1,7 @@
 #!/bin/bash
+
+# Script to reload dunst if the config was changed
+
 pkill dunst
 dunst -config ~/.config/dunst/dunstrc &
 

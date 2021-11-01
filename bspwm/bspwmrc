@@ -1,15 +1,17 @@
 #! /bin/bash
 
+# Startup actions
 pgrep -x sxhkd > /dev/null || sxhkd &
 $HOME/.config/scripts/startup.sh &
 $HOME/.config/polybar/launch.sh
-#wmname LG3D &
-#backlight_control 25 &
+#wmname LG3D &                    # For Java-based application e.g. Intellij
 /usr/bin/dunst &
-pgrep -f bitwarden > /dev/null || bitwarden-desktop &
+pgrep -f bitwarden > /dev/null || bitwarden-desktop &   # To launch one time Bitwarden and opensnitch
 pgrep -x opensnitch-ui > /dev/null || opensnitch-ui &
+#redshift &
+
+# To unlock keyring without DM
 #eval $(/usr/bin/gnome-keyring-daemon --start --components=gpg,pkcs11,secrets,ssh) export SSH_AUTH_SOCK
-redshift &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
@@ -27,9 +29,5 @@ bspc config click_to_focus	 	true
 bspc config focus_follows_pointer 	true
 bspc config ignore_ewmh_focus		true
 
+# Rule for padding using internal monitor as primary to exclude polybar padding
 bspc config -m HDMI-A-0 top_padding 5
-# Rules for layout
-
-# bspc wm -l $HOME/.config/bspwm/layout.layout
-# sh $HOME/.config/bspwm/layout.rules
-# sh $HOME/.config/bspwm/layout.init
