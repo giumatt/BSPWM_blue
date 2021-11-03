@@ -2,7 +2,6 @@
 # wm independent hotkeys
 #
 
-
 # terminal emulator
 alt + Return
 	alacritty

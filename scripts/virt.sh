@@ -1,16 +1,18 @@
 #!/bin/bash
 
+# Script to enable/disable virtualization
+
 case $1 in
   start)
     sudo systemctl start libvirtd.service
     sudo virsh net-start default
-    echo "Virtualizzazione attiva."
+    echo "Virtualization enabled."
     ;;
   stop)
     sudo systemctl stop libvirtd.service
-    echo "Virtualizzazione non attiva."
+    echo "Virtualization disabled."
     ;;
   *)
-    echo "Riprova. Usa start per avviare la virtualizzazione o stop per stopparla."
+    echo "Retry. Use start to enable virtualization or stop to stop it."
     ;;
 esac
