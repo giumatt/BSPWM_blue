@@ -9,4 +9,4 @@ This repo contains dotfiles for Arch Linux + BSPWM configuration.
 It uses also picom, polybar, rofi for a couple of menus and dunst to manage notifications
 and Alacritty as a terminal.
 
-![alt text](https://github.com/giumatt/Arch_BSPWM/blob/main/Screen.png?raw=true)
+![alt text](https://github.com/giumatt/BSPWM_blue/blob/main/Screen.png?raw=true)
