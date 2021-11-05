@@ -1,6 +1,6 @@
 # Dotfiles for Arch Linux + BSPWM
 
-![alt text](https://github.com/giumatt/BSPWM_bl/blob/main/Screen.png?raw=true)
+![alt text](https://github.com/giumatt/BSPWM_blue/blob/main/Screen.png?raw=true)
 
 # IT
 Questa repo contiene i dotfiles per la configurazione di Arch Linux + BSPWM.
