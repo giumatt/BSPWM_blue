@@ -3,7 +3,7 @@
 # Startup applications
 
 setxkbmap it &
-$HOME/.screenlayout/ciao.sh
+$HOME/.screenlayout/ciao.sh &
 nitrogen --restore &
 xsetroot -cursor_name left_ptr &
 #xsetwacom set "Wacom Intuos S 2 Pen stylus" Area 0 0 15200 8550 &
@@ -11,7 +11,10 @@ xsetroot -cursor_name left_ptr &
 picom -f &
 $HOME/.config/polybar/launch.sh &
 /usr/bin/dunst &
-pgrep -f bitwarden > /dev/null || bitwarden-desktop &   # To launch one time Bitwarden and opensnitch
+
+# To launch one time Bitwarden and opensnitch
+pgrep -f bitwarden > /dev/null || bitwarden-desktop &
 pgrep -x opensnitch-ui > /dev/null || opensnitch-ui &
+
 #redshift &
 numlockx &
