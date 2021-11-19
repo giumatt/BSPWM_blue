@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 
 # Script to eval if the external monitor is plugged in and use one layout
 # or another to create the windows frames and start the apps
