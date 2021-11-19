@@ -4,5 +4,5 @@ EnableUpdates = true
 GuiltTripped = false
 FilterInput = true
 FilterOutput = false
-LastUsedInput = ""
+LastUsedInput = "alsa_input.pci-0000_00_09.2.analog-stereo"
 LastUsedOutput = ""
