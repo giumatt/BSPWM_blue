@@ -13,7 +13,7 @@ $HOME/.config/polybar/launch.sh &
 /usr/bin/dunst &
 
 # To launch one time Bitwarden and opensnitch
-pgrep -f bitwarden > /dev/null || bitwarden-desktop &
+#pgrep -f bitwarden > /dev/null || bitwarden-desktop &
 pgrep -x opensnitch-ui > /dev/null || opensnitch-ui &
 
 #redshift &
