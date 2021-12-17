@@ -11,6 +11,8 @@ Code/
 
 configstore/
 
+darktable/
+
 dconf/
 
 discord/
@@ -51,6 +53,8 @@ opensnitch/
 
 procps/
 
+protonvpn/
+
 pulse/
 
 retroarch/
@@ -60,6 +64,8 @@ scripts/lynis/
 spicetify/
 
 spotify/
+
+systemd/
 
 teams/
 
