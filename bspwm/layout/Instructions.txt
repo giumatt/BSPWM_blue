@@ -1,0 +1,9 @@
+Instructions to create a layout to spawn windows in selected workspaces and with the selected dimensions.
+First of all create the layout you want in each workspace and go inside this folder. Then use the two scripts "extract_canvas" to extract a
+JSON file that contains all the informations about your windows in each workspace and "induce_rules" to use the JSON file to generate the rules to use with the bspc
+command.
+By the way, I made a script "layout.sh" that do what I said before so, once you've made your layout launch ONLY this script; then put in the "layout.init" file all
+the programs you want to launch.
+Then go to sxhkdrc and made a keybind (I made 'alt + shift + s') and you've done!
+
+P.S. Every problem you notice about this repository please contact me.
